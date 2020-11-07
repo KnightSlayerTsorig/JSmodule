@@ -144,8 +144,8 @@ console.log(c);
 */
 
 let fcRules = document.getElementsByClassName('fc_rules');
-fcRules[0].style.color = 'red';
-fcRules[1].style.color = 'red';
-fcRules[2].style.color = 'red';
-fcRules[3].style.color = 'red';
+let j = fcRules.length;
+for(i = 0; i < j; i++){
+    fcRules[i].style.color = 'red';
+}
 
